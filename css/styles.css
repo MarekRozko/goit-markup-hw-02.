@@ -18,6 +18,9 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
 }
+.english {
+  color: var(--title-text-color);
+}
 .list {
   list-style: none;
 }
