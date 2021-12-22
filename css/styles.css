@@ -25,7 +25,7 @@ body {
   list-style: none;
 }
 .team-list .title,
-.benefits-list .title {
+.benefits-list .title .gallery-list .title {
   color: var(--title-text-color);
 }
 .addres {
