@@ -38,10 +38,7 @@ body {
   color: var(--title-text-color);
   text-decoration: none;
 }
-.logo-footer {
-  color: var(--primary-bg-color);
-  text-decoration: none;
-}
+
 span {
   color: var(--accent-color);
 }
@@ -57,10 +54,6 @@ span {
 
 .contact-link .link {
   color: var(--primary-text-color);
-  text-decoration: none;
-}
-.contact-link .link-footer {
-  color: var(--contacts-footer-color);
   text-decoration: none;
 }
 .contact-link .link-footer:hover,
