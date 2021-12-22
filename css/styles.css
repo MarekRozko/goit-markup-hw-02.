@@ -33,7 +33,7 @@ body {
 }
 .benefits,
 .work,
-.team {
+.team .gallery-list {
   color: var(--title-text-color);
 }
 /* Logo */
