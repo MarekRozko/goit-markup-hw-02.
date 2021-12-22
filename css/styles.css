@@ -1,0 +1,81 @@
+/* тег спан #2196F3; */
+/* главный заголовок #FFFFFF; */
+/* эфект наведения #2196F3 */
+/* заголовки #212121 */
+/* текст в заголовках #757575 */
+/* футер background: #2F303A; */
+/* наша команда background: #F5F4FA; */
+/* героик background: #2F303A; */
+/* контакты в футоре rgba(255, 255, 255, 0.6); */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+.list {
+  list-style: none;
+}
+.team-list .title,
+.benefits-list .title {
+  color: var(--title-text-color);
+}
+.addres {
+  color: var(--primary-bg-color);
+}
+.benefits,
+.work,
+.team {
+  color: var(--title-text-color);
+}
+/* Logo */
+.logo {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.logo-footer {
+  color: var(--primary-bg-color);
+  text-decoration: none;
+}
+span {
+  color: var(--accent-color);
+}
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contact-link .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.contact-link .link-footer {
+  color: var(--contacts-footer-color);
+  text-decoration: none;
+}
+.contact-link .link-footer:hover,
+.contact-link .link-footer:focus {
+  color: var(--accent-color);
+}
+.contact-link .link:hover,
+.contact-link .link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+.hero-title {
+  color: var(--primary-bg-color);
+}
