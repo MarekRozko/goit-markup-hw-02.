@@ -148,13 +148,12 @@ span {
 
 /* Portfolio */
 .button-list .button {
-  background-color: var(--backgraund-button-color);
+  background-color: var(--backgraund-button-and-team-section-color);
   color: var(--title-text-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
-  text-align: center;
   cursor: pointer;
 }
 .button-list .button:hover,
