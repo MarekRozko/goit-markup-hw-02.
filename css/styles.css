@@ -80,7 +80,6 @@ body {
   font-family: inherit;
   cursor: pointer;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: var(--accent-color);
 }
 .hero {
@@ -170,12 +169,10 @@ body {
   line-height: 1.62;
   cursor: pointer;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border: var(--backgraund-button-and-team-section-color);
 }
-.button-list .button-all:hover,
-.button-list .button-all:focus,
+.button-all:hover,
+.button-all:focus,
 .button-list .button:hover,
 .button-list .button:focus {
   background-color: var(--accent-color);
