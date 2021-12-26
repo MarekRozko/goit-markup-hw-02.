@@ -171,8 +171,7 @@ body {
   border-radius: 4px;
   border: var(--backgraund-button-and-team-section-color);
 }
-.button-all:hover,
-.button-all:focus,
+.button.active,
 .button-list .button:hover,
 .button-list .button:focus {
   background-color: var(--accent-color);
