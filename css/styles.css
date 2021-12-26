@@ -21,14 +21,14 @@ body {
   background-color: var(--primary-bg-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1, 14;
 }
-
 .list {
   list-style: none;
 }
 
+.logo-color {
+  color: var(--accent-color);
+}
 /* Logo */
 .logo {
   color: var(--title-text-color);
@@ -36,43 +36,52 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
-
-span {
-  color: var(--accent-color);
-}
-
 /* site-nav */
-.site-nav .link {
+.nav-list .nav-link {
   color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .curren-link {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.contact-list .link-footer:hover,
+.contact-list .link-footer:focus,
+.contact-list .contact-link:hover,
+.contact-list .contact-link:focus,
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
   color: var(--accent-color);
 }
 /* contact-link */
-.contact-link .link {
+.contact-list .contact-link {
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.contact-link .link:hover,
-.contact-link .link:focus {
-  color: var(--accent-color);
-}
+
 /* hero */
 .button {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   font-family: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: var(--accent-color);
 }
 .hero {
   background-color: var(--backgraund-hero-and-foter-color);
@@ -81,59 +90,62 @@ span {
   color: var(--primary-bg-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.benefits-list .title {
+/* Benefits */
+.benefits-list .subtitle {
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .benefits-list .text {
   font-size: 14px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
-.team-list .title,
-.benefits-list .title {
+.team-list .subtitle,
+.benefits-list .subtitle {
   color: var(--title-text-color);
 }
 .team-section {
   background-color: var(--backgraund-button-and-team-section-color);
 }
+/* Work */
 .work,
 .team {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
 }
-.team-list .title {
+.team-list .subtitle {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 2;
-  /* text-align: center; */
+  line-height: 1.2;
 }
 .team-list .text {
   font-size: 16px;
-  line-height: 1, 2;
-  /* text-align: center; */
+  line-height: 1.2;
 }
 /* addres */
 .addres {
   color: var(--primary-bg-color);
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
+  font-style: normal;
 }
-.contact-link .link-footer {
+.contact-list .link-footer {
   color: var(--contacts-footer-color);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
 }
-.contact-link .link-footer:hover,
-.contact-link .link-footer:focus {
-  color: var(--accent-color);
-}
+/* Footer */
 .footer {
   background-color: var(--backgraund-hero-and-foter-color);
 }
@@ -143,25 +155,34 @@ span {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 
 /* Portfolio */
-.button-list .button {
+/* Buttons */
+.button-list .button,
+.button-all {
   background-color: var(--backgraund-button-and-team-section-color);
   color: var(--title-text-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.62;
   cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: var(--backgraund-button-and-team-section-color);
 }
+.button-list .button-all:hover,
+.button-list .button-all:focus,
 .button-list .button:hover,
 .button-list .button:focus {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
-.gallery-list .title {
+/* Galerry */
+.gallery-list .subtitle {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -170,5 +191,5 @@ span {
 }
 .gallery-list .text {
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
 }
